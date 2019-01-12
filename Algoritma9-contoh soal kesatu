@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int nilai [5], x;
+clrscr();
+
+printf("Memasukkan nilai :\n");
+for(x=0; x<5; x++)
+{
+printf("nilai angka : "); scanf("%d", &nilai[x]);
+}
+printf("\n");
+printf("membaca nilai : \n");
+for(x=0; x<5; x++)
+{
+printf("nilai angka : %d", nilai [x]);
+}
+getch();
+}
